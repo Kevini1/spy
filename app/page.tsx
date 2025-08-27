@@ -132,6 +132,7 @@ export default function SecureMobileScanner() {
   }
 
   return (
+    <>
       {/* Google Analytics */}
       <Script
         strategy="afterInteractive"
@@ -151,6 +152,8 @@ export default function SecureMobileScanner() {
         `,
         }}
       />
+    </>
+      
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/30 to-primary/5">
       {/* Header */}
       <header className="border-b border-border/50 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
