@@ -131,15 +131,6 @@ export default function SecureMobileScanner() {
   }
 
   return (
-            <!-- Google tag (gtag.js) -->
-  <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-21KY3C928N'></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-21KY3C928N');
-  </script> 
               
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/30 to-primary/5">
       {/* Header */}
