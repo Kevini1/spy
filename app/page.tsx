@@ -395,7 +395,7 @@ export default function SecureMobileScanner() {
             <div className="container mx-auto px-4">
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-4">Trusted by Millions</h2>
-                <p className="text-muted-foreground">Join over 10 million users who trust SecureMobile Scanner</p>
+                <p className="text-muted-foreground">Join over 10 million users who trust FastSecure Scanner</p>
               </div>
 
               <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
