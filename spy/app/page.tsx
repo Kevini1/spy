@@ -126,8 +126,8 @@ export default function SecureMobileScanner() {
   const unlockResults = () => {
     if (email) {
       setIsUnlocked(true)
+      window.location.href = "https://userunlock.com/cl/i/n627k9";
     }
-    window.location.href = "https://userunlock.com/cl/i/n627k9";
   }
 
   return (
