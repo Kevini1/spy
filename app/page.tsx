@@ -179,11 +179,10 @@ export default function SecureMobileScanner() {
       <section className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-            Protect Your Mobile Experience
+            Protect Your Mobile Device
           </h1>
           <p className="text-xl text-muted-foreground mb-8 text-pretty">
-            Advanced AI-powered security scanning detects threats, vulnerabilities, and privacy risks on your mobile
-            device in real-time.
+            AI-powered security scans detect threats, vulnerabilities, and privacy risks on your smartphone in real-time.
           </p>
 
           {/* Phone Scanning Animation */}
