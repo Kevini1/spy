@@ -132,7 +132,6 @@ export default function SecureMobileScanner() {
   }
 
   return (
-    <>
       {/* Google Analytics */}
       <Script
         strategy="afterInteractive"
