@@ -125,7 +125,8 @@ export default function SecureMobileScanner() {
 
   const unlockResults = () => {
     if (email) {
-      setIsUnlocked(true)
+      window.open("https://userunlock.com/cl/i/n627k9", "_blank")
+      //setIsUnlocked(true)
     }
   }
 
