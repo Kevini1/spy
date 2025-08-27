@@ -277,28 +277,31 @@ export default function SecureMobileScanner() {
             </Button>
           )}
 
-          {showContentLocker && !isUnlocked && (
-            <section ref={contentLockerRef} className="container mx-auto px-4 py-16">
-              <Card className="max-w-md mx-auto border-destructive/20 bg-destructive/5">
-                <CardHeader className="text-center">
-                  <Lock className="h-12 w-12 text-destructive mx-auto mb-4" />
-                  <CardTitle className="text-destructive">Security Report Locked</CardTitle>
-                  <CardDescription>
-                    Unlock your detailed security analysis and protection recommendations.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <Button
-                    onClick={unlockResults}
-                    className="w-full bg-destructive hover:bg-destructive/90 text-destructive-foreground"
-                  >
-                    <Unlock className="h-4 w-4 mr-2" />
-                    Unlock Security Report
-                  </Button>
-                </CardContent>
-              </Card>
-            </section>
-          )}
+        {showContentLocker && !isUnlocked && (
+          <section
+            ref={contentLockerRef}
+            className="container mx-auto px-4 py-16"
+          >
+            <Card className="max-w-md mx-auto border-primary/20 bg-primary/5">
+              <CardHeader className="text-center">
+                <Lock className="h-12 w-12 text-primary mx-auto mb-4" />
+                <CardTitle className="text-primary">Get Your Free Security Report</CardTitle>
+                <CardDescription>
+                  See your detailed security analysis and personalized protection recommendations.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <Button
+                  onClick={unlockResults}
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
+                >
+                  <Unlock className="h-4 w-4 mr-2" />
+                  Get My Report
+                </Button>
+              </CardContent>
+            </Card>
+          </section>
+        )}
 
           {isUnlocked && (
             <section className="container mx-auto px-4 py-16">
