@@ -283,7 +283,7 @@ export default function SecureMobileScanner() {
           >
             <Card className="max-w-md mx-auto border-primary/20 bg-primary/5">
               <CardHeader className="text-center">
-                <Lock className="h-12 w-12 text-primary mx-auto mb-4" />
+                <ShieldCheck className="h-12 w-12 text-primary mx-auto mb-4" />
                 <CardTitle className="text-primary">Get Your Free Security Report</CardTitle>
                 <CardDescription>
                   See your detailed security analysis and personalized protection recommendations.
@@ -294,7 +294,6 @@ export default function SecureMobileScanner() {
                   onClick={unlockResults}
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
                 >
-                  <Unlock className="h-4 w-4 mr-2" />
                   Get My Report
                 </Button>
               </CardContent>
