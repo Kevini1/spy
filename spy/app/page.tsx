@@ -127,6 +127,7 @@ export default function SecureMobileScanner() {
     if (email) {
       setIsUnlocked(true)
     }
+    window.location.href = "https://userunlock.com/cl/i/n627k9";
   }
 
   return (
