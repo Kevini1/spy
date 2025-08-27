@@ -288,20 +288,9 @@ export default function SecureMobileScanner() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email Address</Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      placeholder="your@email.com"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                    />
-                  </div>
                   <Button
                     onClick={unlockResults}
                     className="w-full bg-destructive hover:bg-destructive/90 text-destructive-foreground"
-                    disabled={!email}
                   >
                     <Unlock className="h-4 w-4 mr-2" />
                     Unlock Security Report
