@@ -124,10 +124,10 @@ export default function SecureMobileScanner() {
   }
 
   const unlockResults = () => {
-    if (email) {
-      window.open("https://userunlock.com/cl/i/n627k9", "_blank")
-      //setIsUnlocked(true)
-    }
+    //if (email) {
+      //window.open("https://userunlock.com/cl/i/n627k9", "_blank")
+      setIsUnlocked(true)
+    //}
   }
 
   return (
