@@ -152,7 +152,6 @@ export default function SecureMobileScanner() {
         `,
         }}
       />
-    </>
       
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/30 to-primary/5">
       {/* Header */}
@@ -469,5 +468,6 @@ export default function SecureMobileScanner() {
         </div>
       </section>
     </div>
+  </>
   )
 }
