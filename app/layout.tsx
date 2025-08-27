@@ -15,17 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-
-    <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-21KY3C928N'></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-  
-      gtag('config', 'G-21KY3C928N');
-    </script> 
-      
+    <html lang="en">      
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
       </body>
