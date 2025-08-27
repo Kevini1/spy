@@ -159,7 +159,7 @@ export default function SecureMobileScanner() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Shield className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">SecureMobile Scanner</span>
+            <span className="text-xl font-bold text-foreground">FastSecure Scanner</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -432,7 +432,7 @@ export default function SecureMobileScanner() {
               <div className="text-center space-y-4">
                 <div className="flex items-center justify-center gap-2 mb-4">
                   <Shield className="h-6 w-6 text-primary" />
-                  <span className="font-bold text-foreground">SecureMobile Scanner</span>
+                  <span className="font-bold text-foreground">FastSecure Scanner</span>
                 </div>
 
                 <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
@@ -449,7 +449,7 @@ export default function SecureMobileScanner() {
                   </a>
                 </div>
 
-                <p className="text-xs text-muted-foreground">© 2024 SecureMobile Scanner. All rights reserved.</p>
+                <p className="text-xs text-muted-foreground">© 2025 FastSecure Scanner. All rights reserved.</p>
               </div>
             </div>
           </footer>
