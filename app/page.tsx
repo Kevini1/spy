@@ -468,6 +468,5 @@ export default function SecureMobileScanner() {
         </div>
       </section>
     </div>
-  </>
   )
 }
