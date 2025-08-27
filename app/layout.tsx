@@ -4,9 +4,9 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'FastSecure.org - Protect Your Mobile Experience - fastsecure',
+  description: 'Protect Your Mobile Experience',
+  generator: 'fastsecure.org',
 }
 
 export default function RootLayout({
