@@ -284,7 +284,7 @@ export default function SecureMobileScanner() {
                   <Lock className="h-12 w-12 text-destructive mx-auto mb-4" />
                   <CardTitle className="text-destructive">Security Report Locked</CardTitle>
                   <CardDescription>
-                    Enter your email to unlock your detailed security analysis and protection recommendations.
+                    Unlock your detailed security analysis and protection recommendations.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
@@ -295,9 +295,6 @@ export default function SecureMobileScanner() {
                     <Unlock className="h-4 w-4 mr-2" />
                     Unlock Security Report
                   </Button>
-                  <p className="text-xs text-muted-foreground text-center">
-                    We respect your privacy. No spam, unsubscribe anytime.
-                  </p>
                 </CardContent>
               </Card>
             </section>
