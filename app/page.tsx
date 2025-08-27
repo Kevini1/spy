@@ -131,16 +131,26 @@ export default function SecureMobileScanner() {
   }
 
   return (
-
-  <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-21KY3C928N'></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-21KY3C928N');
-  </script> 
-    
+    <>
+      {/* Google Analytics */}
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-21KY3C928N`} // remplace par ton ID
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-21KY3C928N', {
+            page_path: window.location.pathname,
+          });
+        `,
+        }}
+      />
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/30 to-primary/5">
       {/* Header */}
       <header className="border-b border-border/50 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
