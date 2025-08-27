@@ -133,16 +133,16 @@ export default function SecureMobileScanner() {
 
   return (
 
-      {/* Google Analytics */}
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-21KY3C928N`} // remplace par ton ID
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
+  <>
+    <Script
+      strategy="afterInteractive"
+      src={`https://www.googletagmanager.com/gtag/js?id=G-21KY3C928N`}
+    />
+    <Script
+      id="google-analytics"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
@@ -150,8 +150,8 @@ export default function SecureMobileScanner() {
             page_path: window.location.pathname,
           });
         `,
-        }}
-      />
+      }}
+    />
       
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/30 to-primary/5">
       {/* Header */}
@@ -468,5 +468,6 @@ export default function SecureMobileScanner() {
         </div>
       </section>
     </div>
+      </>
   )
 }
