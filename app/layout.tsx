@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'FastSecure.org - Protect Your Mobile  - fastsecure',
-  description: 'Protect Your Mobile Experience',
+  description: 'Protect Your Mobile',
   generator: 'fastsecure.org',
 }
 
